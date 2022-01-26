@@ -35,7 +35,7 @@
         "KC_LGUI",
         "KC_RALT",
         "MO(2)",
-        "MO(1)",
+        "KC_SPACE",
         "MO(3)",
         "KC_SPACE"
       ],
@@ -350,25 +350,25 @@
   "via_protocol": 9,
   "tap_dance": [
     [
-      "KC_ESCAPE",
-      "MO(1)",
       "KC_NO",
       "KC_NO",
-      80
-    ],
-    [
-      "MO(1)",
-      "MO(1)",
-      "KC_ESCAPE",
+      "KC_NO",
       "KC_NO",
       200
     ],
     [
-      "KC_ESCAPE",
-      "MO(1)",
-      "KC_ESCAPE",
       "KC_NO",
-      80
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      200
+    ],
+    [
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      "KC_NO",
+      200
     ],
     [
       "KC_NO",
@@ -471,7 +471,7 @@
     "4": 175,
     "5": 5,
     "6": 5000,
-    "7": 200,
+    "7": 80,
     "8": 0,
     "9": 300,
     "10": 50,
