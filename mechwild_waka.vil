@@ -4,12 +4,12 @@
   "layout": [
     [
       [
-        "KC_GRAVE",
-        "KC_1",
-        "KC_2",
-        "KC_3",
-        "KC_4",
-        "KC_5",
+        "LGUI(KC_1)",
+        "LGUI(KC_F2)",
+        "KC_F3",
+        "KC_F4",
+        "KC_F5",
+        "LCTL(KC_T)",
         -1
       ],
       [
@@ -40,21 +40,21 @@
         "KC_MUTE"
       ],
       [
+        "LGUI(KC_LBRACKET)",
         "KC_LCTRL",
         "KC_LALT",
         "KC_LGUI",
-        "M0",
-        "M1",
-        "M2",
-        "MO(3)"
+        "MO(2)",
+        "LGUI(KC_RBRACKET)",
+        "M9"
       ],
       [
-        "KC_6",
-        "KC_7",
-        "KC_8",
-        "KC_9",
-        "KC_0",
-        "KC_BSPACE",
+        "KC_F7",
+        "KC_F8",
+        "LGUI(KC_9)",
+        "KC_F10",
+        "KC_F11",
+        "LALT(KC_F12)",
         -1
       ],
       [
@@ -72,7 +72,7 @@
         "KC_K",
         "KC_L",
         "KC_SCOLON",
-        "KC_ENTER",
+        "KC_QUOTE",
         -1
       ],
       [
@@ -81,22 +81,22 @@
         "KC_COMMA",
         "KC_DOT",
         "KC_SLASH",
-        "OSM(MOD_LSFT|MOD_LGUI)",
+        "KC_ENTER",
         -1
       ],
       [
         "KC_NO",
         "KC_SPACE",
-        "MO(2)",
+        "MO(3)",
         "KC_RGUI",
-        "M8",
-        "TG(1)",
+        "KC_RALT",
+        "KC_RCTRL",
         -1
       ]
     ],
     [
       [
-        "KC_TRNS",
+        "LALT(KC_F1)",
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
@@ -115,30 +115,30 @@
       ],
       [
         "KC_TRNS",
+        "KC_VOLU",
+        "KC_MUTE",
         "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
+        "LSFT(KC_SCOLON)",
         "KC_TRNS",
         -1
       ],
       [
         "KC_TRNS",
+        "KC_VOLD",
         "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
+        "KC_MPRV",
+        "KC_MNXT",
         "KC_TRNS",
         "KC_MPLY"
       ],
       [
+        "M11",
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
-        "M6",
-        "M7",
-        "M3",
-        "KC_SPACE"
+        "KC_MPLY",
+        "M12",
+        "M10"
       ],
       [
         "KC_TRNS",
@@ -146,7 +146,7 @@
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
-        "KC_DELETE",
+        "RGUI(KC_F12)",
         -1
       ],
       [
@@ -155,31 +155,31 @@
         "KC_8",
         "KC_9",
         "KC_0",
-        "KC_DELETE",
+        "KC_TRNS",
         -1
       ],
       [
-        "KC_QUOTE",
-        "KC_LBRACKET",
-        "KC_RBRACKET",
+        "KC_KP_SLASH",
+        "KC_KP_4",
+        "KC_KP_5",
+        "KC_KP_6",
+        "KC_KP_MINUS",
+        "KC_KP_EQUAL",
+        -1
+      ],
+      [
+        "KC_KP_ASTERISK",
+        "KC_KP_1",
+        "KC_KP_2",
+        "KC_KP_3",
+        "KC_KP_PLUS",
         "KC_TRNS",
-        "KC_QUOTE",
+        -1
+      ],
+      [
         "KC_NO",
-        -1
-      ],
-      [
-        "KC_MINUS",
-        "KC_EQUAL",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_BSLASH",
-        "KC_CAPSLOCK",
-        -1
-      ],
-      [
-        "KC_NO",
-        "KC_TRNS",
-        "KC_TRNS",
+        "KC_KP_0",
+        "KC_KP_DOT",
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
@@ -197,27 +197,27 @@
         -1
       ],
       [
-        "KC_TRNS",
-        "KC_F1",
-        "KC_F2",
-        "KC_F3",
-        "KC_F4",
-        "KC_F5",
+        "KC_GRAVE",
+        "LSFT(KC_1)",
+        "LSFT(KC_2)",
+        "LSFT(KC_3)",
+        "LSFT(KC_4)",
+        "LSFT(KC_5)",
         -1
       ],
       [
         "KC_TRNS",
-        "KC_F11",
-        "KC_F12",
-        "KC_TRNS",
+        "KC_MINUS",
+        "KC_KP_EQUAL",
+        "KC_KP_PLUS",
         "KC_TRNS",
         "KC_TRNS",
         -1
       ],
       [
         "KC_TRNS",
-        "M4",
-        "M5",
+        "LSFT(KC_MINUS)",
+        "KC_KP_PLUS",
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
@@ -242,29 +242,29 @@
         -1
       ],
       [
-        "KC_F6",
-        "KC_F7",
-        "KC_F8",
-        "KC_F9",
-        "KC_F10",
-        "KC_TRNS",
-        -1
-      ],
-      [
-        "KC_LEFT",
-        "KC_DOWN",
-        "KC_UP",
-        "KC_RIGHT",
-        "KC_TRNS",
-        "KC_TRNS",
+        "LSFT(KC_6)",
+        "LSFT(KC_7)",
+        "LSFT(KC_8)",
+        "LSFT(KC_9)",
+        "LSFT(KC_0)",
+        "KC_DELETE",
         -1
       ],
       [
         "KC_TRNS",
+        "LSFT(KC_BSLASH)",
+        "KC_BSLASH",
+        "KC_LBRACKET",
+        "KC_RBRACKET",
+        "LSFT(KC_GRAVE)",
+        -1
+      ],
+      [
         "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
+        "KC_BSLASH",
+        "LSFT(KC_BSLASH)",
+        "LSFT(KC_LBRACKET)",
+        "LSFT(KC_RBRACKET)",
         "KC_TRNS",
         -1
       ],
@@ -280,89 +280,89 @@
     ],
     [
       [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
+        "KC_F1",
+        "KC_F2",
+        "KC_F3",
+        "KC_F4",
+        "KC_F5",
+        "KC_F6",
         -1
       ],
       [
+        "KC_TRNS",
+        "RGB_SAD",
+        "RGB_SAI",
+        "RGB_HUD",
+        "RGB_HUI",
+        "RGB_VAI",
+        -1
+      ],
+      [
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
+        "LGUI(KC_LBRACKET)",
+        "LGUI(KC_RBRACKET)",
+        "RGB_VAD",
+        -1
+      ],
+      [
+        "KC_TRNS",
+        "M0",
+        "M1",
+        "M2",
+        "M3",
+        "KC_TRNS",
+        "KC_TRNS"
+      ],
+      [
+        "RGB_RMOD",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
         "KC_TRNS",
         "RGB_MOD",
-        "RGB_VAI",
-        "RGB_HUI",
-        "RGB_SAI",
-        "AU_TOG",
+        "AU_TOG"
+      ],
+      [
+        "KC_F7",
+        "KC_F8",
+        "KC_F9",
+        "KC_F10",
+        "KC_F11",
+        "KC_F12",
         -1
       ],
       [
-        "KC_TRNS",
-        "RGB_RMOD",
-        "RGB_VAD",
-        "RGB_HUD",
-        "RGB_SAD",
-        "MU_MOD",
-        -1
-      ],
-      [
-        "KC_TRNS",
-        "RGB_TOG",
         "RGB_M_B",
         "RGB_M_X",
-        "RGB_M_T",
         "RGB_M_G",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
+        "RGB_M_T",
         "KC_TRNS",
         "KC_TRNS",
         -1
       ],
       [
-        "KC_KP_7",
-        "KC_KP_8",
-        "KC_KP_9",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        -1
-      ],
-      [
-        "KC_KP_4",
-        "KC_KP_5",
-        "KC_KP_6",
-        "KC_TRNS",
+        "KC_LEFT",
+        "KC_DOWN",
+        "KC_UP",
+        "KC_RIGHT",
         "KC_TRNS",
         "KC_TRNS",
         -1
       ],
       [
-        "KC_KP_1",
-        "KC_KP_2",
-        "KC_KP_3",
-        "KC_KP_DOT",
+        "M6",
+        "M7",
         "KC_TRNS",
+        "M5",
+        "M4",
         "KC_TRNS",
         -1
       ],
       [
         "KC_NO",
-        "KC_KP_0",
+        "RGB_TOG",
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
@@ -380,8 +380,8 @@
     ],
     [
       [
-        "KC_MRWD",
-        "KC_MFFD"
+        "KC_MPRV",
+        "KC_MNXT"
       ]
     ],
     [
@@ -401,38 +401,42 @@
   "macro": [
     [
       [
-        "down",
-        "KC_LGUI",
-        "KC_LBRACKET"
+        "text",
+        "[]"
       ],
       [
-        "up",
-        "KC_LGUI",
-        "KC_LBRACKET"
-      ]
-    ],
-    [
-      [
-        "down",
-        "KC_LGUI",
-        "KC_RBRACKET"
-      ],
-      [
-        "up",
-        "KC_LGUI",
-        "KC_RBRACKET"
+        "tap",
+        "KC_LEFT"
       ]
     ],
     [
       [
         "text",
-        "[]()"
+        "()"
+      ],
+      [
+        "tap",
+        "KC_LEFT"
       ]
     ],
     [
       [
         "text",
-        "[|]"
+        "{}"
+      ],
+      [
+        "tap",
+        "KC_LEFT"
+      ]
+    ],
+    [
+      [
+        "text",
+        "\"\""
+      ],
+      [
+        "tap",
+        "KC_LEFT"
       ]
     ],
     [
@@ -467,30 +471,31 @@
     ],
     [
       [
-        "down",
-        "KC_LGUI",
-        "KC_LSHIFT",
-        "KC_LBRACKET"
+        "text",
+        "``"
       ],
       [
-        "up",
-        "KC_LGUI",
-        "KC_LSHIFT",
-        "KC_LBRACKET"
+        "tap",
+        "KC_LEFT"
       ]
     ],
     [
       [
-        "down",
-        "KC_LGUI",
-        "KC_LSHIFT",
-        "KC_RBRACKET"
+        "text",
+        "```"
       ],
       [
-        "up",
-        "KC_LGUI",
-        "KC_LSHIFT",
-        "KC_RBRACKET"
+        "tap",
+        "KC_ENTER",
+        "KC_ENTER"
+      ],
+      [
+        "text",
+        "```"
+      ],
+      [
+        "tap",
+        "KC_UP"
       ]
     ],
     [
@@ -505,10 +510,62 @@
         "KC_F12"
       ]
     ],
-    [],
-    [],
-    [],
-    [],
+    [
+      [
+        "down",
+        "KC_LGUI",
+        "KC_LSHIFT",
+        "KC_A"
+      ],
+      [
+        "up",
+        "KC_LGUI",
+        "KC_LSHIFT",
+        "KC_A"
+      ]
+    ],
+    [
+      [
+        "down",
+        "KC_LGUI",
+        "KC_LSHIFT",
+        "KC_M"
+      ],
+      [
+        "up",
+        "KC_LGUI",
+        "KC_LSHIFT",
+        "KC_M"
+      ]
+    ],
+    [
+      [
+        "down",
+        "KC_LALT",
+        "KC_LGUI",
+        "KC_LEFT"
+      ],
+      [
+        "up",
+        "KC_LALT",
+        "KC_LGUI",
+        "KC_LEFT"
+      ]
+    ],
+    [
+      [
+        "down",
+        "KC_LALT",
+        "KC_LGUI",
+        "KC_RIGHT"
+      ],
+      [
+        "up",
+        "KC_LALT",
+        "KC_LGUI",
+        "KC_RIGHT"
+      ]
+    ],
     [],
     [],
     []
