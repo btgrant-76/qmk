@@ -5,45 +5,45 @@
     [
       [
         "KC_MUTE",
-        "MO(3)",
+        "KC_NO",
         "LGUI(KC_D)",
         "KC_BTN1"
       ],
       [
-        "KC_HOME",
-        "MO(2)",
+        "KC_WH_D",
+        "KC_NO",
         "KC_PGUP",
         "KC_BTN2"
       ],
       [
-        "KC_END",
-        "MO(1)",
+        "KC_WH_U",
+        "TD(0)",
         "KC_PGDOWN",
-        "KC_BTN2"
+        "KC_BTN3"
       ],
       [
-        "KC_BTN3",
+        "M0",
         -1,
         "USER02",
-        "KC_BTN1"
+        "M1"
       ]
     ],
     [
       [
         "RGB_TOG",
-        "KC_TRNS",
+        "KC_NO",
         "RESET",
         "KC_TRNS"
       ],
       [
         "RGB_MOD",
-        "KC_TRNS",
+        "KC_NO",
         "USER00",
         "KC_TRNS"
       ],
       [
         "RGB_RMOD",
-        "KC_TRNS",
+        "TG(1)",
         "USER01",
         "KC_TRNS"
       ],
@@ -69,7 +69,7 @@
       ],
       [
         "KC_TRNS",
-        "KC_TRNS",
+        "TG(2)",
         "KC_TRNS",
         "KC_TRNS"
       ],
@@ -110,22 +110,22 @@
   "encoder_layout": [
     [
       [
-        "KC_VOLD",
-        "KC_VOLU"
+        "LGUI(KC_LBRACKET)",
+        "LGUI(KC_RBRACKET)"
       ],
       [
-        "KC_PGDOWN",
-        "KC_PGUP"
+        "KC_WH_D",
+        "KC_WH_U"
       ]
     ],
     [
       [
-        "KC_TRNS",
-        "KC_TRNS"
-      ],
-      [
         "USER01",
         "USER00"
+      ],
+      [
+        "M3",
+        "M2"
       ]
     ],
     [
@@ -151,10 +151,35 @@
   ],
   "layout_options": -1,
   "macro": [
-    [],
-    [],
-    [],
-    [],
+    [
+      [
+        "down",
+        "KC_BTN1"
+      ]
+    ],
+    [
+      [
+        "tap",
+        "KC_BTN1",
+        "KC_BTN1"
+      ]
+    ],
+    [
+      [
+        "down",
+        "KC_LGUI"
+      ],
+      [
+        "tap",
+        "KC_TAB"
+      ]
+    ],
+    [
+      [
+        "up",
+        "KC_LGUI"
+      ]
+    ],
     [],
     [],
     [],
@@ -172,9 +197,9 @@
   "via_protocol": 9,
   "tap_dance": [
     [
+      "TG(1)",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "TG(2)",
       "KC_NO",
       200
     ],
