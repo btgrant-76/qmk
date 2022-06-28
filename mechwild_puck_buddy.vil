@@ -4,47 +4,47 @@
   "layout": [
     [
       [
-        "KC_MUTE",
+        "LCTL(KC_UP)",
         "KC_NO",
-        "LGUI(KC_D)",
+        "KC_MPLY",
         "KC_BTN1"
       ],
       [
-        "KC_WH_D",
+        "LGUI(KC_LBRACKET)",
         "KC_NO",
-        "KC_PGUP",
+        "LGUI(KC_RBRACKET)",
         "KC_BTN2"
       ],
       [
-        "KC_WH_U",
+        "KC_WH_D",
         "TD(0)",
-        "KC_PGDOWN",
-        "KC_BTN3"
+        "DPI_FINE",
+        "M0"
       ],
       [
-        "M0",
+        "KC_WH_U",
         -1,
-        "USER02",
-        "M1"
+        "DPI_FINE",
+        "DPI_FINE"
       ]
     ],
     [
       [
         "RGB_TOG",
         "KC_NO",
-        "RESET",
+        "USER07",
         "KC_TRNS"
       ],
       [
         "RGB_MOD",
         "KC_NO",
-        "USER00",
+        "USER03",
         "KC_TRNS"
       ],
       [
         "RGB_RMOD",
         "TG(1)",
-        "USER01",
+        "USER04",
         "KC_TRNS"
       ],
       [
@@ -110,8 +110,8 @@
   "encoder_layout": [
     [
       [
-        "LGUI(KC_LBRACKET)",
-        "LGUI(KC_RBRACKET)"
+        "LCTL(KC_LEFT)",
+        "LCTL(KC_RIGHT)"
       ],
       [
         "KC_WH_D",
@@ -120,8 +120,8 @@
     ],
     [
       [
-        "USER01",
-        "USER00"
+        "DPI_DN",
+        "DPI_UP"
       ],
       [
         "M3",
@@ -423,11 +423,11 @@
   ],
   "combo": [
     [
+      "KC_BTN1",
+      "KC_BTN2",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "KC_BTN3"
     ],
     [
       "KC_NO",
@@ -944,7 +944,7 @@
     "4": 175,
     "5": 5,
     "6": 5000,
-    "7": 200,
+    "7": 105,
     "8": 0,
     "9": 10,
     "10": 20,
