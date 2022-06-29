@@ -17,41 +17,41 @@
       ],
       [
         "KC_WH_D",
-        "TD(0)",
-        "DPI_FINE",
+        "MO(1)",
+        "KC_PGUP",
         "M0"
       ],
       [
         "KC_WH_U",
         -1,
-        "DPI_FINE",
+        "KC_PGDOWN",
         "DPI_FINE"
       ]
     ],
     [
       [
-        "RGB_TOG",
+        "LCTL(KC_DOWN)",
         "KC_NO",
-        "USER07",
-        "KC_TRNS"
+        "KC_MUTE",
+        "RGB_TOG"
       ],
       [
-        "RGB_MOD",
+        "DPI_UP",
         "KC_NO",
         "USER03",
         "KC_TRNS"
       ],
       [
-        "RGB_RMOD",
-        "TG(1)",
+        "DPI_DN",
+        "KC_NO",
         "USER04",
-        "KC_TRNS"
+        "RGB_RMOD"
       ],
       [
         "KC_TRNS",
         -1,
-        "KC_TRNS",
-        "KC_TRNS"
+        "USER07",
+        "RGB_MOD"
       ]
     ],
     [
@@ -114,18 +114,18 @@
         "LCTL(KC_RIGHT)"
       ],
       [
-        "KC_WH_D",
-        "KC_WH_U"
+        "KC_MPRV",
+        "KC_MNXT"
       ]
     ],
     [
       [
-        "DPI_DN",
-        "DPI_UP"
+        "LGUI(KC_W)",
+        "LGUI(KC_M)"
       ],
       [
-        "M3",
-        "M2"
+        "KC_VOLD",
+        "KC_VOLU"
       ]
     ],
     [
