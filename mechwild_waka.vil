@@ -40,13 +40,13 @@
         "KC_MUTE"
       ],
       [
-        "LGUI(KC_LBRACKET)",
         "KC_LCTRL",
+        "M9",
         "KC_LALT",
         "KC_LGUI",
         "MO(2)",
-        "LGUI(KC_RBRACKET)",
-        "M9"
+        "LGUI(KC_LBRACKET)",
+        "LGUI(KC_RBRACKET)"
       ],
       [
         "KC_F7",
@@ -132,13 +132,13 @@
         "KC_MPLY"
       ],
       [
-        "M11",
         "KC_TRNS",
+        "M10",
         "KC_TRNS",
         "KC_TRNS",
         "KC_MPLY",
-        "M12",
-        "M10"
+        "M11",
+        "M12"
       ],
       [
         "KC_TRNS",
@@ -207,17 +207,17 @@
       ],
       [
         "KC_TRNS",
-        "KC_MINUS",
-        "KC_KP_EQUAL",
+        "LSFT(KC_BSLASH)",
+        "KC_BSLASH",
         "KC_KP_PLUS",
-        "KC_TRNS",
+        "KC_EQUAL",
         "KC_TRNS",
         -1
       ],
       [
         "KC_TRNS",
-        "LSFT(KC_MINUS)",
-        "KC_KP_PLUS",
+        "KC_TRNS",
+        "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
@@ -252,19 +252,19 @@
       ],
       [
         "KC_TRNS",
-        "LSFT(KC_BSLASH)",
-        "KC_BSLASH",
         "KC_LBRACKET",
         "KC_RBRACKET",
+        "LSFT(KC_LBRACKET)",
+        "LSFT(KC_RBRACKET)",
         "LSFT(KC_GRAVE)",
         -1
       ],
       [
         "KC_TRNS",
-        "KC_BSLASH",
-        "LSFT(KC_BSLASH)",
-        "LSFT(KC_LBRACKET)",
-        "LSFT(KC_RBRACKET)",
+        "KC_MINUS",
+        "LSFT(KC_MINUS)",
+        "KC_TRNS",
+        "KC_TRNS",
         "KC_TRNS",
         -1
       ],
