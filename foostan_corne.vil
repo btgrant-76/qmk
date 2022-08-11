@@ -13,10 +13,10 @@
       ],
       [
         "LT(1, KC_ESCAPE)",
-        "KC_A",
-        "KC_S",
-        "KC_D",
-        "KC_F",
+        "LCTL_T(KC_A)",
+        "LALT_T(KC_S)",
+        "LGUI_T(KC_D)",
+        "LSFT_T(KC_F)",
         "KC_G"
       ],
       [
@@ -44,11 +44,11 @@
         "KC_Y"
       ],
       [
-        "KC_QUOTE",
-        "ALL_T(KC_SCOLON)",
-        "KC_L",
-        "KC_K",
-        "KC_J",
+        "ALL_T(KC_QUOTE)",
+        "RCTL_T(KC_SCOLON)",
+        "RALT_T(KC_L)",
+        "RGUI_T(KC_K)",
+        "RSFT_T(KC_J)",
         "KC_H"
       ],
       [
@@ -75,7 +75,7 @@
         "KC_2",
         "KC_3",
         "KC_4",
-        "KC_KP_5"
+        "KC_5"
       ],
       [
         "KC_LCTRL",
@@ -107,7 +107,7 @@
         "KC_9",
         "KC_8",
         "KC_7",
-        "KC_KP_6"
+        "KC_6"
       ],
       [
         "KC_KP_EQUAL",
@@ -129,7 +129,7 @@
         -1,
         -1,
         -1,
-        "KC_KP_DOT",
+        "KC_DOT",
         "KC_0",
         "M10"
       ]
@@ -211,16 +211,16 @@
       ],
       [
         "KC_CAPSLOCK",
-        "KC_NO",
-        "KC_NO",
-        "M0",
-        "M1",
+        "KC_LCTRL",
+        "KC_LALT",
+        "KC_LGUI",
+        "KC_LSHIFT",
         "RGB_HUI"
       ],
       [
         "KC_LSHIFT",
-        "KC_LCTRL",
-        "KC_LALT",
+        "M0",
+        "M1",
         "M2",
         "M3",
         "RGB_HUD"
@@ -461,9 +461,9 @@
       180
     ],
     [
-      "LGUI(KC_LBRACKET)",
       "KC_LSHIFT",
-      "KC_NO",
+      "KC_LSHIFT",
+      "LGUI(KC_LBRACKET)",
       "KC_NO",
       180
     ],
