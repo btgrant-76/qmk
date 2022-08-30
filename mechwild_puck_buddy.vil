@@ -18,14 +18,14 @@
       [
         "KC_WH_D",
         "MO(1)",
-        "KC_PGUP",
-        "M0"
+        "DPI_FINE",
+        "KC_PGDOWN"
       ],
       [
         "KC_WH_U",
         -1,
-        "KC_PGDOWN",
-        "DPI_FINE"
+        "DPI_GROSS",
+        "KC_PGUP"
       ]
     ],
     [
@@ -38,19 +38,19 @@
       [
         "DPI_UP",
         "KC_NO",
-        "USER03",
+        "USER04",
         "KC_TRNS"
       ],
       [
         "DPI_DN",
         "KC_NO",
-        "USER04",
+        "USER05",
         "RGB_RMOD"
       ],
       [
         "KC_TRNS",
         -1,
-        "USER07",
+        "USER08",
         "RGB_MOD"
       ]
     ],
@@ -944,7 +944,7 @@
     "4": 175,
     "5": 5,
     "6": 5000,
-    "7": 105,
+    "7": 125,
     "8": 0,
     "9": 10,
     "10": 20,
