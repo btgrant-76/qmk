@@ -41,12 +41,12 @@
       ],
       [
         "KC_LCTRL",
-        "M9",
+        "LGUI(KC_LBRACKET)",
         "KC_LALT",
         "KC_LGUI",
         "MO(2)",
-        "LGUI(KC_LBRACKET)",
-        "LGUI(KC_RBRACKET)"
+        "MO(1)",
+        "M9"
       ],
       [
         "KC_F7",
@@ -80,17 +80,17 @@
         "KC_M",
         "KC_COMMA",
         "KC_DOT",
-        "KC_SLASH",
-        "KC_ENTER",
+        "ALL_T(KC_SLASH)",
+        "RSFT_T(KC_ENTER)",
         -1
       ],
       [
         "KC_NO",
-        "KC_SPACE",
+        "MEH_T(KC_SPACE)",
         "MO(3)",
-        "KC_RGUI",
-        "KC_RALT",
-        "KC_RCTRL",
+        "KC_NO",
+        "LGUI(KC_RBRACKET)",
+        "LCG(KC_Q)",
         -1
       ]
     ],
@@ -160,26 +160,26 @@
       ],
       [
         "KC_KP_SLASH",
-        "KC_KP_4",
-        "KC_KP_5",
-        "KC_KP_6",
+        "KC_4",
+        "KC_5",
+        "KC_6",
         "KC_KP_MINUS",
         "KC_KP_EQUAL",
         -1
       ],
       [
         "KC_KP_ASTERISK",
-        "KC_KP_1",
-        "KC_KP_2",
-        "KC_KP_3",
+        "KC_1",
+        "KC_2",
+        "KC_3",
         "KC_KP_PLUS",
         "KC_TRNS",
         -1
       ],
       [
         "KC_NO",
-        "KC_KP_0",
-        "KC_KP_DOT",
+        "KC_0",
+        "KC_DOT",
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
@@ -207,10 +207,10 @@
       ],
       [
         "KC_TRNS",
-        "LSFT(KC_BSLASH)",
-        "KC_BSLASH",
-        "KC_KP_PLUS",
-        "KC_EQUAL",
+        "KC_LCTRL",
+        "KC_LGUI",
+        "KC_LALT",
+        "KC_LSHIFT",
         "KC_TRNS",
         -1
       ],
@@ -251,7 +251,7 @@
         -1
       ],
       [
-        "KC_TRNS",
+        "KC_EQUAL",
         "KC_LBRACKET",
         "KC_RBRACKET",
         "LSFT(KC_LBRACKET)",
@@ -260,11 +260,11 @@
         -1
       ],
       [
-        "KC_TRNS",
+        "KC_KP_PLUS",
         "KC_MINUS",
         "LSFT(KC_MINUS)",
-        "KC_TRNS",
-        "KC_TRNS",
+        "LSFT(KC_BSLASH)",
+        "KC_BSLASH",
         "KC_TRNS",
         -1
       ],
@@ -298,11 +298,11 @@
         -1
       ],
       [
+        "KC_CAPSLOCK",
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
-        "LGUI(KC_LBRACKET)",
-        "LGUI(KC_RBRACKET)",
+        "KC_TRNS",
         "RGB_VAD",
         -1
       ],
@@ -316,13 +316,13 @@
         "KC_TRNS"
       ],
       [
+        "KC_TRNS",
+        "AU_TOG",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS",
         "RGB_RMOD",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "KC_TRNS",
-        "RGB_MOD",
-        "AU_TOG"
+        "RGB_MOD"
       ],
       [
         "KC_F7",
@@ -354,9 +354,9 @@
       [
         "M6",
         "M7",
-        "KC_TRNS",
         "M5",
         "M4",
+        "KC_NO",
         "KC_TRNS",
         -1
       ],
@@ -574,29 +574,29 @@
   "via_protocol": 9,
   "tap_dance": [
     [
+      "KC_LSHIFT",
+      "KC_LSHIFT",
+      "KC_CAPSLOCK",
       "KC_NO",
-      "KC_NO",
+      200
+    ],
+    [
+      "KC_X",
+      "LGUI(KC_X)",
       "KC_NO",
       "KC_NO",
       200
     ],
     [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      200
-    ],
-    [
-      "KC_NO",
-      "KC_NO",
+      "KC_C",
+      "LGUI(KC_C)",
       "KC_NO",
       "KC_NO",
       200
     ],
     [
-      "KC_NO",
-      "KC_NO",
+      "KC_V",
+      "LGUI(KC_V)",
       "KC_NO",
       "KC_NO",
       200
@@ -632,25 +632,25 @@
   ],
   "combo": [
     [
+      "KC_Q",
+      "KC_W",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "KC_TAB"
     ],
     [
+      "KC_U",
+      "KC_I",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "KC_SPACE"
     ],
     [
+      "KC_Z",
+      "KC_X",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "KC_ESCAPE"
     ],
     [
       "KC_NO",
@@ -696,8 +696,8 @@
     "4": 175,
     "5": 5,
     "6": 5000,
-    "7": 100,
-    "8": 3,
+    "7": 140,
+    "8": 2,
     "9": 300,
     "10": 50,
     "11": 5,
