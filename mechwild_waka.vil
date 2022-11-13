@@ -32,18 +32,18 @@
       ],
       [
         "KC_LSHIFT",
-        "KC_Z",
-        "KC_X",
+        "LCTL_T(KC_Z)",
+        "LALT_T(KC_X)",
         "KC_C",
         "KC_V",
         "KC_B",
         "KC_MUTE"
       ],
       [
-        "KC_LCTRL",
         "LGUI(KC_LBRACKET)",
+        "KC_LCTRL",
         "KC_LALT",
-        "KC_LGUI",
+        "TD(4)",
         "MO(2)",
         "MO(1)",
         "M9"
@@ -85,12 +85,12 @@
         -1
       ],
       [
-        "KC_NO",
-        "KC_SPACE",
+        "MO(1)",
+        "LT(3, KC_SPACE)",
         "MO(3)",
         "KC_RGUI",
         "LGUI(KC_RBRACKET)",
-        "LCG(KC_Q)",
+        "RGUI(KC_RBRACKET)",
         -1
       ]
     ],
@@ -133,12 +133,12 @@
       ],
       [
         "KC_TRNS",
-        "M10",
+        "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
         "KC_MPLY",
         "M11",
-        "KC_MINUS"
+        "KC_NO"
       ],
       [
         "KC_TRNS",
@@ -177,7 +177,7 @@
         -1
       ],
       [
-        "KC_NO",
+        "KC_MINUS",
         "KC_0",
         "KC_DOT",
         "KC_TRNS",
@@ -230,7 +230,7 @@
         "KC_TRNS",
         "KC_TRNS",
         "KC_TRNS",
-        "LSFT(KC_MINUS)"
+        "KC_NO"
       ],
       [
         "KC_TRNS",
@@ -255,7 +255,7 @@
         "LSFT(KC_4)",
         "LSFT(KC_5)",
         "LSFT(KC_6)",
-        "LSFT(KC_RBRACKET)",
+        "LSFT(KC_SCOLON)",
         "KC_NO",
         -1
       ],
@@ -269,7 +269,7 @@
         -1
       ],
       [
-        "KC_NO",
+        "LSFT(KC_MINUS)",
         "LSFT(KC_9)",
         "LSFT(KC_0)",
         "KC_TRNS",
@@ -290,8 +290,8 @@
       ],
       [
         "KC_NO",
-        "KC_NO",
-        "KC_NO",
+        "M4",
+        "M5",
         "KC_NO",
         "KC_NO",
         "KC_NO",
@@ -308,11 +308,11 @@
       ],
       [
         "KC_TRNS",
-        "M0",
-        "M1",
-        "M2",
-        "M3",
-        "KC_TRNS",
+        "KC_LCTRL",
+        "KC_LALT",
+        "KC_NO",
+        "KC_NO",
+        "KC_NO",
         "AU_TOG"
       ],
       [
@@ -602,9 +602,9 @@
       200
     ],
     [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "KC_LGUI",
+      "KC_LGUI",
+      "OSM(MOD_LSFT|MOD_LGUI)",
       "KC_NO",
       200
     ],
@@ -696,7 +696,7 @@
     "4": 175,
     "5": 5,
     "6": 5000,
-    "7": 140,
+    "7": 180,
     "8": 2,
     "9": 300,
     "10": 50,
