@@ -12,7 +12,7 @@
       ],
       [
         "KC_NO",
-        "KC_ESCAPE",
+        "TG(2)",
         "KC_KP_SLASH",
         "KC_KP_ASTERISK",
         "KC_KP_MINUS"
@@ -100,37 +100,37 @@
       ],
       [
         "KC_TRNS",
-        "M10",
-        "M11",
-        "KC_WBAK",
-        "M13"
+        "TG(2)",
+        "KC_TRNS",
+        "KC_TRNS",
+        "KC_TRNS"
       ],
       [
         "KC_TRNS",
-        "M7",
-        "M8",
-        "M9",
-        "M14"
+        "KC_HOME",
+        "KC_UP",
+        "KC_PGUP",
+        "KC_TRNS"
       ],
       [
         "KC_TRNS",
-        "M4",
-        "M5",
-        "M6",
+        "KC_LEFT",
+        "KC_DOWN",
+        "KC_RIGHT",
         "KC_NO"
       ],
       [
         "KC_TRNS",
-        "M1",
-        "M2",
-        "M3",
-        "M15"
+        "KC_END",
+        "KC_DOWN",
+        "KC_PGDOWN",
+        "KC_TRNS"
       ],
       [
         "TG(2)",
-        "M0",
+        "KC_INSERT",
         "KC_TRNS",
-        "KC_TRNS",
+        "KC_DELETE",
         "KC_NO"
       ]
     ],
